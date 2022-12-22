@@ -20,10 +20,10 @@
     $mail->Host       = "smtp.gmail.com";      
     $mail->Port        = '465';             
     $mail->AddAddress($email);
-    $mail->Username   ="djangotest777@gmail.com";  
-    $mail->Password   ="vjqyhmqsxqcormty";            
-    $mail->SetFrom('djangotest777@gmail.com','Hari');
-    $mail->AddReplyTo("djangotest777@gmail.com","Hari");
+    $mail->Username   ="youremail@gmail.com";  
+    $mail->Password   ="yourpassword";            
+    $mail->SetFrom('youremail@gmail.com','Hari');
+    $mail->AddReplyTo("youremail@gmail.com","Hari");
     $mail->Subject    = $subject;
     $mail->Body    = $message;
     $mail->AltBody    = $message;
